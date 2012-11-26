@@ -24,12 +24,12 @@ class CatalogController < ApplicationController
     #}
 
     # solr field configuration for search results/index views
-    config.index.show_link = 'title_display'
+    config.index.show_link = 'oregon__title_t'
     config.index.record_display_type = 'format'
 
     # solr field configuration for document/show views
-    config.show.html_title = 'title_display'
-    config.show.heading = 'title_display'
+    config.show.html_title = 'oregon__title_t'
+    config.show.heading = 'oregon__title_t'
     config.show.display_type = 'format'
 
     # solr fields that will be treated as facets by the blacklight application
@@ -51,13 +51,10 @@ class CatalogController < ApplicationController
     #
     # :show may be set to false if you don't want the facet to be drawn in the 
     # facet bar
-    config.add_facet_field 'format', :label => 'Format'
-    config.add_facet_field 'pub_date', :label => 'Publication Year', :single => true
-    config.add_facet_field 'subject_topic_facet', :label => 'Topic', :limit => 20 
-    config.add_facet_field 'language_facet', :label => 'Language', :limit => true 
-    config.add_facet_field 'lc_1letter_facet', :label => 'Call Number' 
-    config.add_facet_field 'subject_geo_facet', :label => 'Region' 
-    config.add_facet_field 'subject_era_facet', :label => 'Era'  
+    config.add_facet_field 'oregon__hasFormat_facet', :label => 'Format'
+    config.add_facet_field 'oregon__date_facet', :label => 'Publication Year', :single => true
+    config.add_facet_field 'oregon__subject_facet', :label => 'Topic', :limit => 20 
+    config.add_facet_field 'oregon__spatial_facet', :label => 'Region' 
 
 
     config.add_facet_field 'example_query_facet_field', :label => 'Publish Date', :query => {

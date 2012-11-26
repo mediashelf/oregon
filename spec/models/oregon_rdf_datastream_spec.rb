@@ -11,5 +11,6 @@ describe OregonRDFDatastream do
       @ds.subject.should include("Agricultural laborers--Mexican--Oregon", "Agricultural laborers--Housing--Oregon")
     end
   end
+
   
 end
