@@ -46,4 +46,12 @@ class OregonRDFDatastream < ActiveFedora::NtriplesRDFDatastream
  
   end
 
+
+  # def to_solr(doc = {} )
+  #   doc = super
+  #   ### CUSTOM Behavior
+  #   doc["my_field_t"] = 'Example text'
+  #   doc
+  # end
+
 end
