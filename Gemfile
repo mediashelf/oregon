@@ -21,18 +21,13 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'rspec-rails'
+gem 'jettywrapper'
 
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'blacklight', '4.0.0.pre7'
 
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
+gem "unicode", :platforms => [:mri_18, :mri_19]
+gem "bootstrap-sass"
 
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
+gem 'unicorn'
+gem 'devise'
