@@ -32,3 +32,4 @@ gem "bootstrap-sass"
 
 gem 'unicorn'
 gem 'devise'
+gem "devise-guests", "~> 0.2"
