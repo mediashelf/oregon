@@ -34,4 +34,3 @@ gem 'unicorn'
 gem 'devise'
 gem "devise-guests", "~> 0.2"
 gem 'therubyracer'
-# just a comment
