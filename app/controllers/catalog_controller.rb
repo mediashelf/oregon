@@ -4,6 +4,11 @@ require 'blacklight/catalog'
 class CatalogController < ApplicationController  
 
   include Blacklight::Catalog
+  include Hydra::AccessControlsEnforcement
+
+  before_filter :enforce_access_controls
+
+  CatalogController.solr_search_params_logic << :add_access_controls_to_solr_params
 
   configure_blacklight do |config|
     ## Default parameters to send to solr for all search-like requests. See also SolrHelper#solr_search_params
