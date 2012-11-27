@@ -2,5 +2,9 @@
 # If you are using something like Shibboleth or LDAP to get users' Roles, you should override this Class.  
 # Your override should include a Module that implements the same behaviors as Hydra::RoleMapperBehavior 
 class RoleMapper
-  include Hydra::RoleMapperBehavior
+  def roles(uid)
+    u = User.find_by_user_key(uid)
+    return ["public"] unless u
+    return u.groups
+  end
 end
