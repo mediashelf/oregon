@@ -1,6 +1,9 @@
 require 'datastreams/oregon_rdf_datastream'
 class Image < ActiveFedora::Base
+  include Hydra::ModelMixins::RightsMetadata
+
   has_metadata :name => "descMetadata", :type => OregonRDFDatastream
+  has_metadata :name => "rightsMetadata", :type => Hydra::Datastream::RightsMetadata
 
   # see https://github.com/mediashelf/sufia/blob/master/app/models/datastreams/file_content_datastream.rb
   has_file_datastream name: "content"

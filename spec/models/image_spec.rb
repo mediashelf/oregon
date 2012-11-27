@@ -14,6 +14,9 @@ describe Image do
     it "should have a thumbnail datastream" do
       @image.thumbnail.should be_kind_of(ActiveFedora::Datastream)
     end
+    it "should have right data" do
+      @image.rightsMetadata.should be_kind_of(Hydra::Datastream::RightsMetadata)
+    end
   end
   context "create from an Ntriples file then saved and the loaded" do
     before do
