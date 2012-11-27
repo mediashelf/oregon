@@ -1,4 +1,6 @@
 class User < ActiveRecord::Base
+# Connects this user object to Hydra behaviors. 
+ include Hydra::User
   include Blacklight::User
   include Hydra::User
 
