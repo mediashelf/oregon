@@ -11,6 +11,9 @@ describe Image do
     it "should have a content datastream" do
       @image.content.should be_kind_of(ActiveFedora::Datastream)
     end
+    it "should have a thumbnail datastream" do
+      @image.thumbnail.should be_kind_of(ActiveFedora::Datastream)
+    end
   end
   context "create from an Ntriples file then saved and the loaded" do
     before do

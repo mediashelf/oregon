@@ -35,6 +35,8 @@ task :fixtures => :environment do
   @image.date = "1944"
   @image.add_file_datastream(File.open(File.expand_path("../../../spec/fixtures/P0120_2567.tif", __FILE__), "rb").read,
       dsid: "content", mimeType: "image/tiff")
+  @image.add_file_datastream(File.open(File.expand_path("../../../spec/fixtures/P0120_2567.jpg", __FILE__), "rb").read,
+      dsid: "thumbnail", mimeType: "image/jpeg")
 
   @image.save
 
