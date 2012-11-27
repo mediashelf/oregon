@@ -8,6 +8,9 @@ describe Image do
     it "should have some Dublin Core terms" do
       @image.hasFormat.should == ["B&W print"]
     end
+    it "should have a content datastream" do
+      @image.content.should be_kind_of(ActiveFedora::Datastream)
+    end
   end
   context "create from an Ntriples file then saved and the loaded" do
     before do
