@@ -10,6 +10,9 @@ describe OregonRDFDatastream do
     it "should have many fields" do
       @ds.subject.should include("Agricultural laborers--Mexican--Oregon", "Agricultural laborers--Housing--Oregon")
     end
+    it "should support some PREMIS metadata" do
+      @ds.preservation.should include("P0120_2570")
+    end
   end
 
   
