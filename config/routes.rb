@@ -5,6 +5,8 @@ OregonDigital::Application.routes.draw do
 
   Blacklight.add_routes(self)
 
+  resources :downloads, :only => :show
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
