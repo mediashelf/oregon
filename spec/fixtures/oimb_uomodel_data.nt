@@ -1,0 +1,344 @@
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/title> "1100" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/source> "3.13.12" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/subject> "Annelida" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/subject> "Polychaeta" .
+<http://oregondigital.org/ns/5001> <http://rs.tdwg.org/dwc/terms/phylum> "Annelida" .
+<http://oregondigital.org/ns/5001> <http://rs.tdwg.org/dwc/terms/class> "Polychaeta" .
+<http://oregondigital.org/ns/5001> <http://rs.tdwg.org/dwc/terms/genus> "Dodecaceria fewkesi" .
+<http://oregondigital.org/ns/5001> <http://rs.tdwg.org/dwc/terms/vernacularName> "colonial tube worm" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/description> "Family Cirratulidae" .
+<http://oregondigital.org/ns/5001> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Fairly Certain" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/identifier> "OIMB_1100" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,1100" .
+<http://oregondigital.org/ns/5001> <http://purl.org/dc/terms/identifier> "1101.jpg" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/title> "1105" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/source> "3.13.18" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/subject> "Annelida" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/subject> "Polychaeta" .
+<http://oregondigital.org/ns/5002> <http://rs.tdwg.org/dwc/terms/phylum> "Annelida" .
+<http://oregondigital.org/ns/5002> <http://rs.tdwg.org/dwc/terms/class> "Polychaeta" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/description> "Family Flabelligeridae" .
+<http://oregondigital.org/ns/5002> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Fairly Certain" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/date> "1969" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/identifier> "OIMB_1105" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,1105" .
+<http://oregondigital.org/ns/5002> <http://purl.org/dc/terms/identifier> "1106.jpg" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/title> "1107" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/source> "3.14.1" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/subject> "Annelida" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/subject> "Polychaeta" .
+<http://oregondigital.org/ns/5003> <http://rs.tdwg.org/dwc/terms/phylum> "Annelida" .
+<http://oregondigital.org/ns/5003> <http://rs.tdwg.org/dwc/terms/class> "Polychaeta" .
+<http://oregondigital.org/ns/5003> <http://rs.tdwg.org/dwc/terms/genus> "Pherusa" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/description> "Family Flabelligeridae" .
+<http://oregondigital.org/ns/5003> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Questionable" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/date> "1978" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/isPartOf> "CH" . 
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/identifier> "OIMB_1107" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,1106" .
+<http://oregondigital.org/ns/5003> <http://purl.org/dc/terms/identifier> "1107.jpg" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/title> "10" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/source> "1.1.11" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/subject> "Diatoms" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/subject> "Centric" .
+<http://oregondigital.org/ns/5004> <http://rs.tdwg.org/dwc/terms/phylum> "Bacillariophyta" .
+<http://oregondigital.org/ns/5004> <http://rs.tdwg.org/dwc/terms/genus> "Biddulphia" .
+<http://oregondigital.org/ns/5004> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/dateSubmitted> "04-Feb-02" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/identifier> "OIMB_10" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,152" .
+<http://oregondigital.org/ns/5004> <http://purl.org/dc/terms/identifier> "14.jpg" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/title> "1029" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/source> "3.6.1" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/subject> "Aschelminthes and Small Worm Groups" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/subject> "Nematoda" .
+<http://oregondigital.org/ns/5005> <http://rs.tdwg.org/dwc/terms/phylum> "Nematoda" .
+<http://oregondigital.org/ns/5005> <http://rs.tdwg.org/dwc/terms/vernacularName> "Nematode" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/description> "unknown" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/identifier> "OIMB_1029" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,690" .
+<http://oregondigital.org/ns/5005> <http://purl.org/dc/terms/identifier> "629.jpg" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/title> "1031" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/source> "3.6.3" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/subject> "Aschelminthes and Small Worm Groups" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/subject> "Nematoda" .
+<http://oregondigital.org/ns/5006> <http://rs.tdwg.org/dwc/terms/phylum> "Nematoda" .
+<http://oregondigital.org/ns/5006> <http://rs.tdwg.org/dwc/terms/vernacularName> "Nematode" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/description> "unknown" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/identifier> "OIMB_1031" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,693" .
+<http://oregondigital.org/ns/5006> <http://purl.org/dc/terms/identifier> "631.jpg" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/title> "1032" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/source> "3.6.4" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/subject> "Aschelminthes and Small Worm Groups" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/subject> "Nematoda" .
+<http://oregondigital.org/ns/5007> <http://rs.tdwg.org/dwc/terms/phylum> "Nematoda" .
+<http://oregondigital.org/ns/5007> <http://rs.tdwg.org/dwc/terms/vernacularName> "Nematode" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/description> "Nematode and eggs from Mola mola gut" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/date> "1978" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/identifier> "OIMB_1032" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,694" .
+<http://oregondigital.org/ns/5007> <http://purl.org/dc/terms/identifier> "632.jpg" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/title> "106" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/source> "1.7.18" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/subject> "Diatoms" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/subject> "Pennate" .
+<http://oregondigital.org/ns/5008> <http://rs.tdwg.org/dwc/terms/phylum> "Bacillariophyta" .
+<http://oregondigital.org/ns/5008> <http://rs.tdwg.org/dwc/terms/genus> "Fragillaria" .
+<http://oregondigital.org/ns/5008> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Fairly Certain" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/date> "1973" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/dateSubmitted> "4-Feb-02" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/identifier> "OIMB_106" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,107" .
+<http://oregondigital.org/ns/5008> <http://purl.org/dc/terms/identifier> "109.jpg" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/title> "1060" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/source> "3.9.1" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/subject> "Aschelminthes and Small Worm Groups" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/subject> "Unsegmented Coelomate Worms" .
+<http://oregondigital.org/ns/5009> <http://rs.tdwg.org/dwc/terms/phylum> "Echiura" .
+<http://oregondigital.org/ns/5009> <http://rs.tdwg.org/dwc/terms/genus> "Arhynchite" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/spatial> "Clam Island" .
+<http://oregondigital.org/ns/5009> <http://id.loc.gov/vocabulary/relators/pho> 
+<http://oregondigital.org/ns/5009> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Questionable" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/date> "1970" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/isPartOf> "LCO" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/identifier> "OIMB_1060" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,721" .
+<http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/identifier> "657.jpg" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/title> "1214" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/source> "3.20.12" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/subject> "Annelida" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/subject> "Polychaeta" .
+<http://oregondigital.org/ns/5010> <http://rs.tdwg.org/dwc/terms/phylum> "Annelida" .
+<http://oregondigital.org/ns/5010> <http://rs.tdwg.org/dwc/terms/class> "Polychaeta" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/description> "Family Serpulidae" .
+<http://oregondigital.org/ns/5010> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/date> "1980" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/identifier> "OIMB_1214" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,1212" .
+<http://oregondigital.org/ns/5010> <http://purl.org/dc/terms/identifier> "1213.jpg" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/title> "1221" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/source> "3.21.1" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/subject> "Annelida" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/subject> "Polychaeta" .
+<http://oregondigital.org/ns/5011> <http://rs.tdwg.org/dwc/terms/phylum> "Annelida" .
+<http://oregondigital.org/ns/5011> <http://rs.tdwg.org/dwc/terms/class> "Polychaeta" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/description> "Family Spionidae - larva" .
+<http://oregondigital.org/ns/5011> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Fairly Certain" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/date> "1978" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/identifier> "OIMB_1221" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,1220" .
+<http://oregondigital.org/ns/5011> <http://purl.org/dc/terms/identifier> "1221.jpg" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/title> "222" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/source> "1.16.1" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/subject> "Brown Algae" .
+<http://oregondigital.org/ns/5012> <http://rs.tdwg.org/dwc/terms/phylum> "Phaeophyta" .
+<http://oregondigital.org/ns/5012> <http://rs.tdwg.org/dwc/terms/genus> "Fucus" .
+<http://oregondigital.org/ns/5012> <http://rs.tdwg.org/dwc/terms/vernacularName> "rockweed" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/spatial> "Coquille River, Bandon, Or." .
+<http://oregondigital.org/ns/5012> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/date> "1977" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/dateSubmitted> "4-Feb-02" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/identifier> "OIMB_222" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,241" .
+<http://oregondigital.org/ns/5012> <http://purl.org/dc/terms/identifier> "220.jpg" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/title> "3187" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/source> "7.13.11" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/subject> "Aves" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/subject> "Falconiformes (vultures, hawks, falcons)" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/subject> "Accipitridae (kites, hawks, eagles)" .
+<http://oregondigital.org/ns/5013> <http://rs.tdwg.org/dwc/terms/phylum> "Chordata" .
+<http://oregondigital.org/ns/5013> <http://rs.tdwg.org/dwc/terms/class> "Aves" .
+<http://oregondigital.org/ns/5013> <http://rs.tdwg.org/dwc/terms/genus> "Buteo jamaicensis" .
+<http://oregondigital.org/ns/5013> <http://rs.tdwg.org/dwc/terms/vernacularName> "red-tailed hawk" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/spatial> "Bandon, OR" .
+<http://oregondigital.org/ns/5013> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/date> "1979" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/dateSubmitted> "14-Mar-02" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/isPartOf> "Mike Graybill" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/identifier> "OIMB_3187" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,3185" .
+<http://oregondigital.org/ns/5013> <http://purl.org/dc/terms/identifier> "3186.jpg" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/title> "1658" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/source> "4.29.11" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/subject> "Arthropoda" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/subject> "Hexapoda" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/subject> "Insecta" .
+<http://oregondigital.org/ns/5014> <http://rs.tdwg.org/dwc/terms/phylum> "Arthropoda" .
+<http://oregondigital.org/ns/5014> <http://rs.tdwg.org/dwc/terms/class> "Insecta" .
+<http://oregondigital.org/ns/5014> <http://rs.tdwg.org/dwc/terms/genus> "Thinopinus pictus" .
+<http://oregondigital.org/ns/5014> <http://rs.tdwg.org/dwc/terms/vernacularName> "beetle" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/spatial> "North spit, Coos Bay, OR" .
+<http://oregondigital.org/ns/5014> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Questionable" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/date> "1975" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/dateSubmitted> "8-Feb-02" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/isPartOf> "L. Oglesby" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/identifier> "OIMB_1658" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,1656" .
+<http://oregondigital.org/ns/5014> <http://purl.org/dc/terms/identifier> "1657.jpg" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/title> "3136" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/source> "7.10.4" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/subject> "Aves" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/subject> "Anseriformes (waterfowl)" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/subject> "Geese" .
+<http://oregondigital.org/ns/5015> <http://rs.tdwg.org/dwc/terms/phylum> "Chordata" .
+<http://oregondigital.org/ns/5015> <http://rs.tdwg.org/dwc/terms/class> "Aves" .
+<http://oregondigital.org/ns/5015> <http://rs.tdwg.org/dwc/terms/genus> "Branta nigricans" .
+<http://oregondigital.org/ns/5015> <http://rs.tdwg.org/dwc/terms/vernacularName> "black brant" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/spatial> "Coos Bay, OR" .
+<http://oregondigital.org/ns/5015> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/date> "1982" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/dateSubmitted> "14-Mar-02" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/isPartOf> "Mike Graybill" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/identifier> "OIMB_3136" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,3136" .
+<http://oregondigital.org/ns/5015> <http://purl.org/dc/terms/identifier> "3137.jpg" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/title> "3605" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/source> "8.8.16" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/subject> "Mammalia - Marine" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/subject> "Cetacea" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/subject> "Odontoceti" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/subject> "Delphinidae (oceanic dolphins)" .
+<http://oregondigital.org/ns/5016> <http://rs.tdwg.org/dwc/terms/phylum> "Chordata" .
+<http://oregondigital.org/ns/5016> <http://rs.tdwg.org/dwc/terms/class> "Mammalia" .
+<http://oregondigital.org/ns/5016> <http://rs.tdwg.org/dwc/terms/genus> "Lagenorhynchus obliquidens" .
+<http://oregondigital.org/ns/5016> <http://rs.tdwg.org/dwc/terms/vernacularName> "Pacific white-sided dolphin" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/spatial> "North spit, Coos Bay, OR" .
+<http://oregondigital.org/ns/5016> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/date> "1982" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/dateSubmitted> "21-Mar-02" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/identifier> "OIMB_3605" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,3599" .
+<http://oregondigital.org/ns/5016> <http://purl.org/dc/terms/identifier> "3600.jpg" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/title> "3703" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/source> "8.15.12" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/subject> "Mammalia - Marine" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/subject> "Pinnipedia" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/subject> "Phocidae (true seals)" .
+<http://oregondigital.org/ns/5017> <http://rs.tdwg.org/dwc/terms/phylum> "Chordata" .
+<http://oregondigital.org/ns/5017> <http://rs.tdwg.org/dwc/terms/class> "Mammalia" .
+<http://oregondigital.org/ns/5017> <http://rs.tdwg.org/dwc/terms/genus> "Phoca vitulina" .
+<http://oregondigital.org/ns/5017> <http://rs.tdwg.org/dwc/terms/vernacularName> "harbor seal" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/spatial> "Coos Bay, OR" .
+<http://oregondigital.org/ns/5017> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/date> "1983" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/dateSubmitted> "21-Mar-02" .
+<http://oregondigital.org/ns/5075> <http://purl.org/dc/terms/isPartOf> "L. Oglesby" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/identifier> "OIMB_3703" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,3703" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/identifier> "3704.jpg" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/title> "6168" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/source> "12.4.1" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/subject> "Cnidarian" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/subject> "Anthozoa" .
+<http://oregondigital.org/ns/5018> <http://rs.tdwg.org/dwc/terms/phylum> "Cnidarian" .
+<http://oregondigital.org/ns/5018> <http://rs.tdwg.org/dwc/terms/class> "Anthozoa" .
+<http://oregondigital.org/ns/5018> <http://rs.tdwg.org/dwc/terms/genus> "Metridium senile" .
+<http://oregondigital.org/ns/5018> <http://rs.tdwg.org/dwc/terms/vernacularName> "plumose sea anemone" .
+<http://oregondigital.org/ns/5018> <http://id.loc.gov/vocabulary/relators/pho> "Augie Ozolin."
+<http://oregondigital.org/ns/5018> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/date> "1977" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/dateSubmitted> "13-Jun-11" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/isPartOf> "Tom Forgatsch" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/identifier> "OIMB_6168" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Derivative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,5563" .
+<http://oregondigital.org/ns/5018> <http://purl.org/dc/terms/identifier> "5564.jpg" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/title> "6237" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/source> "12.7.11" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/subject> "Cnidarian" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/subject> "Anthozoa" .
+<http://oregondigital.org/ns/5019> <http://rs.tdwg.org/dwc/terms/phylum> "Cnidarian" .
+<http://oregondigital.org/ns/5019> <http://rs.tdwg.org/dwc/terms/class> "Anthozoa" .
+<http://oregondigital.org/ns/5019> <http://rs.tdwg.org/dwc/terms/genus> "Metridium senile" .
+<http://oregondigital.org/ns/5019> <http://rs.tdwg.org/dwc/terms/vernacularName> "plumose sea anemone" .
+<http://oregondigital.org/ns/5019> <http://id.loc.gov/vocabulary/relators/pho> "Augie Ozolin."
+<http://oregondigital.org/ns/5019> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/date> "1977" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/dateSubmitted> "13-Jun-11" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/isPartOf> "Tom Forgatsch" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/identifier> "OIMB_6237" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Dervative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,5632" .
+<http://oregondigital.org/ns/5019> <http://purl.org/dc/terms/identifier> "5633.jpg" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/title> "6906" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/source> "12.44.1" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/subject> "Red Algae" .
+<http://oregondigital.org/ns/5020> <http://rs.tdwg.org/dwc/terms/phylum> "Rhodophyte" .
+<http://oregondigital.org/ns/5020> <http://rs.tdwg.org/dwc/terms/genus> "Bossiella cretacea" .
+<http://oregondigital.org/ns/5020> <http://rs.tdwg.org/dwc/terms/vernacularName> "coralline algae" .
+<http://oregondigital.org/ns/5020> <http://id.loc.gov/vocabulary/relators/pho> "Augie Ozolin."
+<http://oregondigital.org/ns/5020> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Fairly Certain" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/date> "1977" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/dateSubmitted> "27-Jun-11" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/isPartOf> "Tom Forgatsch" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/type> "image" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/format> "image/jpeg" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/identifier> "OIMB_6906" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/rights> "(c) University of Oregon. This image is licensed under a Creative Commons Attribution-Noncommercial-No Dervative Works 3.0 United States License (http://creativecommons.org/licenses/by-nc-nd/3.0/us/ ). Acknowledgement of the University of Oregon Libraries as a source is required." . 
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/replaces> "https://oregondigital.org/u?/oimb,6903" .
+<http://oregondigital.org/ns/5020> <http://purl.org/dc/terms/identifier> "6904.jpg" .
