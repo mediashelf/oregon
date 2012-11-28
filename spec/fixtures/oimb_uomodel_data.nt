@@ -128,7 +128,6 @@
 <http://oregondigital.org/ns/5009> <http://rs.tdwg.org/dwc/terms/phylum> "Echiura" .
 <http://oregondigital.org/ns/5009> <http://rs.tdwg.org/dwc/terms/genus> "Arhynchite" .
 <http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/spatial> "Clam Island" .
-<http://oregondigital.org/ns/5009> <http://id.loc.gov/vocabulary/relators/pho> 
 <http://oregondigital.org/ns/5009> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Questionable" .
 <http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/date> "1970" .
 <http://oregondigital.org/ns/5009> <http://purl.org/dc/terms/dateSubmitted> "12-Feb-02" .
