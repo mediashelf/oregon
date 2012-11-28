@@ -21,6 +21,10 @@ class DownloadsController < ApplicationController
   
   def send_content (id)
       @asset = ActiveFedora::Base.find(id)
+
+      # TODO: Figure out best way to lock this down in the case we need IP-based filtering for downloads
+      authorize! :download, @asset
+
       opts = {}
       ds = nil
       opts[:filename] = params["filename"] || @asset.label
