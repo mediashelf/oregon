@@ -5,6 +5,8 @@ class Image < ActiveFedora::Base
   has_metadata :name => "descMetadata", :type => OregonRDFDatastream
   has_metadata :name => "rightsMetadata", :type => Hydra::Datastream::RightsMetadata
 
+  has_and_belongs_to_many :collections, :property => :is_part_of
+
   # see https://github.com/mediashelf/sufia/blob/master/app/models/datastreams/file_content_datastream.rb
   has_file_datastream name: "content"
   has_file_datastream name: "thumbnail"

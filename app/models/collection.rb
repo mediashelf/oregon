@@ -1,3 +1,3 @@
 class Collection < ActiveFedora::Base
-  # attr_accessible :title, :body
+  has_many :images, :property => :is_part_of
 end
