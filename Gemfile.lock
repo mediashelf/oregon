@@ -15,7 +15,7 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
-    active-fedora (5.0.0.rc3)
+    active-fedora (5.0.0.rc4)
       activeresource (>= 3.0.0)
       activesupport (>= 3.0.0)
       builder (~> 3.0.0)
@@ -26,7 +26,7 @@ GEM
       rdf-rdfxml (~> 0.3.8)
       rsolr
       rubydora (~> 0.5.13)
-      solrizer (~> 2.0.0.rc6)
+      solrizer (~> 2.0.0.rc7)
     activemodel (3.2.9)
       activesupport (= 3.2.9)
       builder (~> 3.0.0)
@@ -91,27 +91,27 @@ GEM
     hooks (0.2.2)
     httpi (1.1.1)
       rack
-    hydra-access-controls (5.0.0.pre12)
+    hydra-access-controls (5.0.0.pre13)
       active-fedora
       activesupport
       blacklight
       cancan
       deprecation
-    hydra-core (5.0.0.pre12)
+    hydra-core (5.0.0.pre13)
       RedCloth (= 4.2.9)
-      active-fedora (~> 5.0.0.rc3)
-      blacklight (~> 4.0.0.pre4)
+      active-fedora (~> 5.0.0.rc4)
+      blacklight (~> 4.0.0.pre7)
       block_helpers
       deprecation (>= 0.0.5)
       devise
-      hydra-access-controls (= 5.0.0.pre12)
+      hydra-access-controls (= 5.0.0.pre13)
       hydra-mods (>= 0.0.6)
       jquery-rails
       rails (~> 3.2.3)
       sanitize
-    hydra-head (5.0.0.pre12)
-      hydra-access-controls (= 5.0.0.pre12)
-      hydra-core (= 5.0.0.pre12)
+    hydra-head (5.0.0.pre13)
+      hydra-access-controls (= 5.0.0.pre13)
+      hydra-core (= 5.0.0.pre13)
       rails (>= 3.2.6)
     hydra-mods (0.0.6)
       active-fedora (> 4.1)
@@ -224,14 +224,14 @@ GEM
       nokogiri (>= 1.4.0)
       nori (~> 1.1.0)
       wasabi (~> 2.5.0)
-    solrizer (2.0.0.rc6)
+    solrizer (2.0.0.rc7)
       daemons
       mediashelf-loggable (~> 0.4.7)
       nokogiri
       om (>= 1.5.0)
       stomp
       xml-simple
-    sprockets (2.2.1)
+    sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
       rack (~> 1.0)
@@ -270,7 +270,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise
   devise-guests (~> 0.2)
-  hydra-head (= 5.0.0.pre12)
+  hydra-head (= 5.0.0.pre13)
   jettywrapper
   jquery-rails
   rails (= 3.2.9)
