@@ -1,10 +1,14 @@
 OregonDigital::Application.routes.draw do
   devise_for :users
+  mount Sufia::Engine => '/'
+
 
   root :to => "catalog#index"
 
   Blacklight.add_routes(self)
   HydraHead.add_routes(self)
+  Hydra::BatchEdit.add_routes(self)
+
 
   resources :downloads, :only => :show
 

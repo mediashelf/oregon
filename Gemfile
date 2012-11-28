@@ -24,8 +24,9 @@ gem 'jquery-rails'
 gem 'rspec-rails'
 gem 'jettywrapper'
 
-gem 'blacklight', '4.0.0.pre7'
-gem 'hydra-head', '5.0.0.pre13'
+gem 'blacklight'
+gem 'hydra-head'
+gem 'sufia', :github => "mediashelf/sufia"
 
 gem "unicode", :platforms => [:mri_18, :mri_19]
 gem "bootstrap-sass"

@@ -1,3 +1,36 @@
+GIT
+  remote: git://github.com/mediashelf/sufia.git
+  revision: 51188888664ab9c6a30b850a9ac6532f34d7e0e5
+  specs:
+    sufia (0.0.1.pre2)
+      activerecord-import
+      acts_as_follower (= 0.1.1)
+      blacklight
+      blacklight_advanced_search
+      daemons (= 1.1.9)
+      devise (= 2.1.2)
+      execjs (= 1.4.0)
+      hydra-batch-edit (~> 0.0.7)
+      hydra-core (= 5.0.0.pre11)
+      hydra-file-access (= 5.0.0.pre11)
+      hydra-head (= 5.0.0.pre11)
+      mail_form
+      mailboxer (= 0.8.0)
+      nest (= 1.1.1)
+      noid (= 0.5.5)
+      paperclip (= 3.3.0)
+      rails (~> 3.2.8)
+      rails_autolink (= 1.0.9)
+      rainbow (= 1.1.4)
+      resque (= 1.22.0)
+      resque-pool (= 0.3.0)
+      rmagick (= 2.13.1)
+      sitemap (= 0.3.2)
+      therubyracer (= 0.10.2)
+      will_paginate (= 3.0.3)
+      yaml_db (= 0.2.3)
+      zipruby (= 0.3.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -35,33 +68,52 @@ GEM
       activesupport (= 3.2.9)
       arel (~> 3.0.2)
       tzinfo (~> 0.3.29)
+    activerecord-import (0.2.11)
+      activerecord (~> 3.0)
+      activerecord (~> 3.0)
     activeresource (3.2.9)
       activemodel (= 3.2.9)
       activesupport (= 3.2.9)
     activesupport (3.2.9)
       i18n (~> 0.6)
       multi_json (~> 1.0)
+    acts_as_follower (0.1.1)
     addressable (2.3.2)
     akami (1.2.0)
       gyoku (>= 0.4.0)
       nokogiri (>= 1.4.0)
     arel (3.0.2)
+    backports (2.6.5)
     bcrypt-ruby (3.0.1)
-    blacklight (4.0.0.pre7)
-      bootstrap-sass (~> 2.1.0)
+    blacklight (3.8.1)
+      compass-rails (~> 1.0.0)
+      compass-susy-plugin (>= 0.9.0)
       kaminari (~> 0.13)
       marc (>= 0.4.3, < 1.1)
       nokogiri (~> 1.5)
-      rails (~> 3.2)
+      rails (~> 3.1)
       rsolr (~> 1.0.6)
+      rsolr-ext (~> 1.0.3)
       sass-rails
+      unicode
+    blacklight_advanced_search (1.2.4)
+      blacklight (~> 3.2, >= 3.2.1)
+      parslet
+      rails (~> 3.0)
+    blankslate (2.1.2.4)
     block_helpers (0.3.3)
       activesupport (>= 2.0)
-    bootstrap-sass (2.1.1.0)
+    bootstrap-sass (2.2.1.1)
+      sass (~> 3.2)
     builder (3.0.4)
     cancan (1.6.8)
+    carrierwave (0.7.1)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
     childprocess (0.3.6)
       ffi (~> 1.0, >= 1.0.6)
+    chunky_png (1.2.6)
+    cocaine (0.4.2)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
       railties (~> 3.2.0)
@@ -69,6 +121,14 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.4.0)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (1.0.3)
+      compass (>= 0.12.2, < 0.14)
+    compass-susy-plugin (0.9)
+      compass (>= 0.11.1)
     daemons (1.1.9)
     deprecation (0.0.5)
       activesupport
@@ -85,33 +145,49 @@ GEM
       multi_json (~> 1.0)
     fastercsv (1.5.5)
     ffi (1.2.0)
+    foreigner (1.2.1)
+      activerecord (>= 3.0.0)
+    fssm (0.2.9)
     gyoku (0.4.6)
       builder (>= 2.1.2)
     hike (1.2.1)
     hooks (0.2.2)
     httpi (1.1.1)
       rack
-    hydra-access-controls (5.0.0.pre13)
+    hydra-access-controls (5.0.0.pre11)
       active-fedora
       activesupport
       blacklight
       cancan
       deprecation
-    hydra-core (5.0.0.pre13)
+    hydra-batch-edit (0.0.7)
+      blacklight
+    hydra-core (5.0.0.pre11)
       RedCloth (= 4.2.9)
-      active-fedora (~> 5.0.0.rc4)
-      blacklight (~> 4.0.0.pre7)
+      active-fedora (~> 5.0.0.rc1)
+      blacklight (~> 3.4)
       block_helpers
       deprecation (>= 0.0.5)
       devise
-      hydra-access-controls (= 5.0.0.pre13)
+      hydra-access-controls (= 5.0.0.pre11)
       hydra-mods (>= 0.0.6)
       jquery-rails
       rails (~> 3.2.3)
       sanitize
-    hydra-head (5.0.0.pre13)
-      hydra-access-controls (= 5.0.0.pre13)
-      hydra-core (= 5.0.0.pre13)
+    hydra-file-access (5.0.0.pre11)
+      RedCloth (= 4.2.9)
+      active-fedora
+      blacklight (~> 3.4)
+      block_helpers
+      deprecation (>= 0.0.5)
+      devise
+      hydra-core (= 5.0.0.pre11)
+      hydra-mods (>= 0.0.5)
+      rails (~> 3.2.3)
+      sanitize
+    hydra-head (5.0.0.pre11)
+      hydra-access-controls (= 5.0.0.pre11)
+      hydra-core (= 5.0.0.pre11)
       rails (>= 3.2.6)
     hydra-mods (0.0.6)
       active-fedora (> 4.1)
@@ -137,10 +213,19 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    mail_form (1.3.0)
+    mailboxer (0.8.0)
+      carrierwave (>= 0.5.8)
+      foreigner (>= 0.9.1)
+      rails (> 3.0.0)
     marc (0.5.0)
     mediashelf-loggable (0.4.9)
     mime-types (1.19)
     multi_json (1.3.7)
+    nest (1.1.1)
+      redis
+    noid (0.5.5)
+      backports
     nokogiri (1.5.5)
     nori (1.1.3)
     om (1.8.0.rc1)
@@ -150,10 +235,20 @@ GEM
       mediashelf-loggable
       nokogiri (>= 1.4.2)
     orm_adapter (0.4.0)
+    paperclip (3.3.0)
+      activemodel (>= 3.0.0)
+      activerecord (>= 3.0.0)
+      activesupport (>= 3.0.0)
+      cocaine (~> 0.4.0)
+      mime-types
+    parslet (1.4.0)
+      blankslate (~> 2.0)
     polyglot (0.3.3)
     rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
+    rack-protection (1.2.0)
+      rack
     rack-ssl (1.3.2)
       rack
     rack-test (0.6.2)
@@ -166,6 +261,8 @@ GEM
       activesupport (= 3.2.9)
       bundler (~> 1.0)
       railties (= 3.2.9)
+    rails_autolink (1.0.9)
+      rails (~> 3.1)
     railties (3.2.9)
       actionpack (= 3.2.9)
       activesupport (= 3.2.9)
@@ -173,6 +270,7 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
+    rainbow (1.1.4)
     raindrops (0.10.0)
     rake (10.0.2)
     rdf (0.3.10)
@@ -184,10 +282,25 @@ GEM
       rdf (>= 0.3.4)
     rdoc (3.12)
       json (~> 1.4)
+    redis (3.0.2)
+    redis-namespace (1.2.1)
+      redis (~> 3.0.0)
+    resque (1.22.0)
+      multi_json (~> 1.0)
+      redis-namespace (~> 1.0)
+      sinatra (>= 0.9.2)
+      vegas (~> 0.1.2)
+    resque-pool (0.3.0)
+      rake
+      resque (~> 1.20)
+      trollop (~> 1.16)
     rest-client (1.6.7)
       mime-types (>= 1.16)
+    rmagick (2.13.1)
     rsolr (1.0.8)
       builder (>= 2.1.2)
+    rsolr-ext (1.0.3)
+      rsolr (>= 1.0.2)
     rspec-core (2.12.0)
     rspec-expectations (2.12.0)
       diff-lcs (~> 1.1.3)
@@ -224,6 +337,11 @@ GEM
       nokogiri (>= 1.4.0)
       nori (~> 1.1.0)
       wasabi (~> 2.5.0)
+    sinatra (1.3.3)
+      rack (~> 1.3, >= 1.3.6)
+      rack-protection (~> 1.2)
+      tilt (~> 1.3, >= 1.3.3)
+    sitemap (0.3.2)
     solrizer (2.0.0.rc7)
       daemons
       mediashelf-loggable (~> 0.4.7)
@@ -245,6 +363,7 @@ GEM
     treetop (1.4.12)
       polyglot
       polyglot (>= 0.3.1)
+    trollop (1.16.2)
     tzinfo (0.3.35)
     uglifier (1.3.0)
       execjs (>= 0.3.0)
@@ -254,29 +373,35 @@ GEM
       kgio (~> 2.6)
       rack
       raindrops (~> 0.7)
+    vegas (0.1.11)
+      rack (>= 1.0.0)
     warden (1.2.1)
       rack (>= 1.0)
     wasabi (2.5.1)
       httpi (~> 1.0)
       nokogiri (>= 1.4.0)
+    will_paginate (3.0.3)
     xml-simple (1.1.2)
+    yaml_db (0.2.3)
+    zipruby (0.3.6)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  blacklight (= 4.0.0.pre7)
+  blacklight
   bootstrap-sass
   coffee-rails (~> 3.2.1)
   devise
   devise-guests (~> 0.2)
-  hydra-head (= 5.0.0.pre13)
+  hydra-head
   jettywrapper
   jquery-rails
   rails (= 3.2.9)
   rspec-rails
   sass-rails (~> 3.2.3)
   sqlite3
+  sufia!
   therubyracer
   uglifier (>= 1.0.3)
   unicode
