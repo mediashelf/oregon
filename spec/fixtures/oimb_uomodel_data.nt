@@ -279,7 +279,7 @@
 <http://oregondigital.org/ns/5017> <http://rs.tdwg.org/dwc/terms/identificationVerificationStatus> "Very Certain" .
 <http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/date> "1983" .
 <http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/dateSubmitted> "21-Mar-02" .
-<http://oregondigital.org/ns/5075> <http://purl.org/dc/terms/isPartOf> "L. Oglesby" .
+<http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/isPartOf> "L. Oglesby" .
 <http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/type> "image" .
 <http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/format> "image/jpeg" .
 <http://oregondigital.org/ns/5017> <http://purl.org/dc/terms/identifier> "OIMB_3703" .
