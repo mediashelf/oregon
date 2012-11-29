@@ -4,6 +4,9 @@ OregonDigital::Application.routes.draw do
   root :to => "catalog#index"
 
   Blacklight.add_routes(self)
+  HydraHead.add_routes(self)
+
+  resources :downloads, :only => :show
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

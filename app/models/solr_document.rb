@@ -30,4 +30,8 @@ class SolrDocument
                          :language => "language_facet",
                          :format => "format"
                          )
+
+  def has_thumbnail?
+    return self["has_thumbnail_s"] && self["has_thumbnail_s"].first == "true"
+  end
 end

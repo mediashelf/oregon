@@ -24,8 +24,8 @@ gem 'jquery-rails'
 gem 'rspec-rails'
 gem 'jettywrapper'
 
-gem 'blacklight', '4.0.0.pre7'
-gem 'hydra-head', '5.0.0.pre12'
+gem 'blacklight'
+gem 'hydra-head', :github => 'projecthydra/hydra-head', :ref => 'bfae021'
 
 gem "unicode", :platforms => [:mri_18, :mri_19]
 gem "bootstrap-sass"
@@ -34,3 +34,7 @@ gem 'unicorn'
 gem 'devise'
 gem "devise-guests", "~> 0.2"
 gem 'therubyracer'
+
+gem 'pry'
+gem 'pry-debugger'
+gem 'pry-rails'
