@@ -51,4 +51,21 @@ describe Image do
       end
     end
   end
+
+  describe "#review!" do
+    it "should complete the review process" do
+      @img = Image.new
+      answer = ["completed"]
+      @img.workflowMetadata.review_process.status.should_not == answer
+      @img.review!
+      @img.workflowMetadata.review_process.status.should == answer
+    end
+
+    it "should become public" do
+      @img = Image.new
+      @img.read_groups.should == []
+      @img.review!
+      @img.read_groups.should == ["public"]
+    end
+  end
 end

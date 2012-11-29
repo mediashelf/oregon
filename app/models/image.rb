@@ -21,4 +21,11 @@ class Image < ActiveFedora::Base
 
     return doc
   end
+
+  # Marks this image as having been reviewed and publishes it
+  def review!
+    workflowMetadata.review_process.status = "completed"
+    self.read_groups += ["public"] unless self.read_groups.include?("public")
+    save!
+  end
 end
