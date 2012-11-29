@@ -16,8 +16,11 @@ class User < ActiveRecord::Base
 
   attr_accessor :groups
   def groups
+    # TODO: Get groups from DB / rolemapper / other?
     unless @groups
       @groups = []
+
+      # TODO: Actually check for external ip list/range, not just mine
       @groups.push("library") if current_sign_in_ip == "128.223.223.89"
     end
 
