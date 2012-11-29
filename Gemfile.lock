@@ -15,7 +15,7 @@ GEM
       rack-cache (~> 1.2)
       rack-test (~> 0.6.1)
       sprockets (~> 2.2.1)
-    active-fedora (5.0.0.rc4)
+    active-fedora (5.0.0.rc5)
       activeresource (>= 3.0.0)
       activesupport (>= 3.0.0)
       builder (~> 3.0.0)
@@ -47,7 +47,7 @@ GEM
       nokogiri (>= 1.4.0)
     arel (3.0.2)
     bcrypt-ruby (3.0.1)
-    blacklight (4.0.0.pre7)
+    blacklight (4.0.0.rc1)
       bootstrap-sass (~> 2.1.0)
       kaminari (~> 0.13)
       marc (>= 0.4.3, < 1.1)
@@ -100,27 +100,27 @@ GEM
     hooks (0.2.2)
     httpi (1.1.1)
       rack
-    hydra-access-controls (5.0.0.pre13)
+    hydra-access-controls (5.0.0.pre15)
       active-fedora
       activesupport
       blacklight
       cancan
       deprecation
-    hydra-core (5.0.0.pre13)
+    hydra-core (5.0.0.pre15)
       RedCloth (= 4.2.9)
-      active-fedora (~> 5.0.0.rc4)
-      blacklight (~> 4.0.0.pre7)
+      active-fedora (~> 5.0.0.rc5)
+      blacklight (~> 4.0.0.rc1)
       block_helpers
       deprecation (>= 0.0.5)
       devise
-      hydra-access-controls (= 5.0.0.pre13)
+      hydra-access-controls (= 5.0.0.pre15)
       hydra-mods (>= 0.0.6)
       jquery-rails
       rails (~> 3.2.3)
       sanitize
-    hydra-head (5.0.0.pre13)
-      hydra-access-controls (= 5.0.0.pre13)
-      hydra-core (= 5.0.0.pre13)
+    hydra-head (5.0.0.pre15)
+      hydra-access-controls (= 5.0.0.pre15)
+      hydra-core (= 5.0.0.pre15)
       rails (>= 3.2.6)
     hydra-mods (0.0.6)
       active-fedora (> 4.1)
@@ -285,12 +285,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  blacklight (= 4.0.0.pre7)
+  blacklight
   bootstrap-sass
   coffee-rails (~> 3.2.1)
   devise
   devise-guests (~> 0.2)
-  hydra-head (= 5.0.0.pre13)
+  hydra-head (= 5.0.0.pre15)
   jettywrapper
   jquery-rails
   pry
