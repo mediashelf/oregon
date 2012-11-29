@@ -25,7 +25,7 @@ gem 'rspec-rails'
 gem 'jettywrapper'
 
 gem 'blacklight'
-gem 'hydra-head', '5.0.0.pre15'
+gem 'hydra-head', :github => 'projecthydra/hydra-head', :ref => 'bfae021'
 
 gem "unicode", :platforms => [:mri_18, :mri_19]
 gem "bootstrap-sass"
