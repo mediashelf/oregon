@@ -1,9 +1,11 @@
 require 'datastreams/oregon_rdf_datastream'
+require 'datastreams/workflow'
 class Image < ActiveFedora::Base
   include Hydra::ModelMixins::RightsMetadata
 
   has_metadata :name => "descMetadata", :type => OregonRDFDatastream
   has_metadata :name => "rightsMetadata", :type => Hydra::Datastream::RightsMetadata
+  has_metadata :name => "workflowMetadata", :type => Workflow
 
   has_and_belongs_to_many :collections, :property => :is_part_of
 

@@ -31,4 +31,24 @@ describe Image do
       @image.descMetadata.subject.should include("Agricultural laborers--Mexican--Oregon", "Agricultural laborers--Housing--Oregon")
     end
   end
+
+  describe "#to_solr" do
+    before do
+      @img = Image.new
+      @img.save
+    end
+
+    context "on an unreviewed image" do
+      it "should index needs_review_s as true" do
+        @img.to_solr["needs_review_s"].should == "true"
+      end
+    end
+
+    context "on a reviewed image" do
+      it "should index needs_review_s as false" do
+        @img.workflowMetadata.review_process.status = "completed"
+        @img.to_solr["needs_review_s"].should == "false"
+      end
+    end
+  end
 end
