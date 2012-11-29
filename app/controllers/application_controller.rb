@@ -9,6 +9,8 @@ class ApplicationController < ActionController::Base
 
   protect_from_forgery
 
+  layout "blacklight"
+
   # Will this allow us to auto-add a group to non-logged-in users?
   def guest_user
     user = super
