@@ -1,4 +1,4 @@
-Oregon Hydra Head Demo
+Oregon Hydra Head Demo Project
 
 == Welcome to Rails
 
