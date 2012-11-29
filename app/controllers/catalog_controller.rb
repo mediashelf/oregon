@@ -65,7 +65,7 @@ class CatalogController < ApplicationController
     config.add_facet_field 'oregon__hasFormat_facet', :label => 'Format'
     config.add_facet_field 'oregon__date_facet', :label => 'Publication Year', :single => true
     config.add_facet_field 'oregon__subject_facet', :label => 'Topic', :limit => 20 
-    config.add_facet_field 'oregon__spatial_facet', :label => 'Region' 
+    config.add_facet_field 'oregon__location_facet', :label => 'Region'
 
 
     config.add_facet_field 'example_query_facet_field', :label => 'Publish Date', :query => {

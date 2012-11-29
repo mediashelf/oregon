@@ -11,7 +11,7 @@ class Image < ActiveFedora::Base
   has_file_datastream name: "content"
   has_file_datastream name: "thumbnail"
 
-  delegate_to :descMetadata, [:hasFormat, :type, :spatial, :created, :description, :rights, :title, :subject, :identifier, :modified, :date]
+  delegate_to :descMetadata, [:hasFormat, :type, :location, :created, :description, :rights, :title, :subject, :identifier, :modified, :date]
 
   def to_solr(doc = {})
     doc = super
