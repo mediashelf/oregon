@@ -1,4 +1,4 @@
-Oregon Project
+Oregon Hydra Head
 
 == Welcome to Rails
 
