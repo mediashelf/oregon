@@ -175,4 +175,19 @@ class CatalogController < ApplicationController
       end
       user_access_filters
   end
+
+  def apply_role_permissions(permission_types)
+      # for roles
+      user_access_filters = []
+      current_ability.user_groups(current_or_guest_user, session).each_with_index do |role, i|
+        permission_types.each do |type|
+          user_access_filters << "#{type}_access_group_t:#{role}"
+        end
+      end
+      user_access_filters
+  end
+
+  def current_ability
+    @current_ability ||= ::Ability.new(current_or_guest_user)
+  end
 end 
