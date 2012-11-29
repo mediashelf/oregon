@@ -97,11 +97,11 @@ class OregonRDFDatastream < ActiveFedora::NtriplesRDFDatastream
   end
 
 
-  # def to_solr(doc = {} )
-  #   doc = super
-  #   ### CUSTOM Behavior
-  #   doc["my_field_t"] = 'Example text'
-  #   doc
-  # end
+  def to_solr(doc = {} )
+    doc = super
+    # Magic mystery fun code for making marc act like solr
+    #doc["dc_contributor_t"] = doc["dc_photographer"] + ...
+    doc
+  end
 
 end
