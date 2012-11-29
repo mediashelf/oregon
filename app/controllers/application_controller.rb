@@ -12,10 +12,10 @@ class ApplicationController < ActionController::Base
   layout "blacklight"
 
   # Will this allow us to auto-add a group to non-logged-in users?
-  def guest_user
+  def current_user
     user = super
-    user ||= User.new(:email => "foo@bar.com")#(:groups => ["public"])
-    user.groups << ["library"]
+    user ||= User.new
+    user.current_sign_in_ip ||= request.env['REMOTE_ADDR']
 
 #    if request.ip_address == "128.223.223.89"
 #      user.groups << "library"

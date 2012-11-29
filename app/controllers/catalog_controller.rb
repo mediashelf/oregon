@@ -165,6 +165,14 @@ class CatalogController < ApplicationController
     config.spell_max = 5
   end
 
-
-
+  def apply_individual_permissions(permission_types)
+      # for individual person access
+      user_access_filters = []
+      if user_key.present?
+        permission_types.each do |type|
+          user_access_filters << "#{type}_access_person_t:#{user_key}"
+        end
+      end
+      user_access_filters
+  end
 end 
