@@ -16,7 +16,11 @@ class User < ActiveRecord::Base
 
   attr_accessor :groups
   def groups
-    @groups ||= ["public"]
+    unless @groups
+      @groups = []
+      @groups.push("library") if current_sign_in_ip == "128.223.223.89"
+    end
+
     return @groups
   end
 
