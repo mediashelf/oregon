@@ -15,7 +15,7 @@ describe Ability do
       @ability.should_receive(:default_user_groups).and_return(["default"])
       @ability.instance_variable_set("@user_groups", nil)
 
-      groups = @ability.user_groups(@user, {})
+      groups = @ability.user_groups
       groups.length.should == 2
       groups.should include("group 1", "default")
     end
