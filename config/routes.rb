@@ -8,6 +8,8 @@ OregonDigital::Application.routes.draw do
 
   resources :downloads, :only => :show
 
+  resources :reviewer, :only => [:show, :index]
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
