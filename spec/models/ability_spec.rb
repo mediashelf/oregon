@@ -1,9 +1,12 @@
 require "spec_helper"
 
 describe Ability do
+  before do
+    @user = User.new
+  end
+
   describe "#user_groups" do
     before do
-      @user = User.new
       @ability = Ability.new(@user)
     end
 
@@ -15,6 +18,24 @@ describe Ability do
       groups = @ability.user_groups(@user, {})
       groups.length.should == 2
       groups.should include("group 1", "default")
+    end
+  end
+
+  describe "#custom_permissions" do
+    context "for a reviewer" do
+      it "should give permissions to review images" do
+        @user.stub(:groups).and_return(["reviewer"])
+        @ability = Ability.new(@user)
+        @ability.can?(:review, Image).should be_true
+      end
+    end
+
+    context "for a guest" do
+      it "should not allow reviewing images" do
+        @user.stub(:groups).and_return([])
+        @ability = Ability.new(@user)
+        @ability.can?(:review, Image).should be_false
+      end
     end
   end
 end

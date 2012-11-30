@@ -10,4 +10,10 @@ class Ability
     @user_groups = user.groups + default_user_groups
     @user_groups
   end
+
+  def custom_permissions(user, session)
+    if user.groups.include?("reviewer")
+      can :review, Image
+    end
+  end
 end
